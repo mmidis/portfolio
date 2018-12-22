@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+
+<head>
+
+    <title>Portfolio Midora</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Midora Linden">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+
+    <!-- oma tyylitiedosto -->
+    <link href="css/tyyli.css" rel="stylesheet" type="text/css">
+
+    <!-- fontit -->
+    <link href="https://fonts.googleapis.com/css?family=Meddon|Mukta|Playfair+Display" rel="stylesheet">
+
+    <!--lightbox-->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+
+    <style>
+        body {
+            background-image: url("img/tausta2.png");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <div class="container-contact100">
+        <div class="wrap-contact100">
+            <h2 class="logo" style="font-family: Meddon; color: black; text-align: center; margin:30px">Portfolio Midora Linden</h2>
+            
+           <!-- navi --> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#cv">Resume</a>
+                                <a class="dropdown-item" href="#kuvat">Work </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#feedback">Contact</a>
+                            </div>
+                        </li>
+                    </ul>
+        
+                </div>
+            </nav>
+            <br>
+
+            <!--slideshow-->
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/8.jpg" alt="">
+                        <div class="carousel-caption">
+<!--                            <p class="hidden">Banner - Hanken</p>-->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/9.jpg" alt="">
+                        <div class="carousel-caption">
+<!--                            <p class="hidden">Banner - Hanken</p>-->
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+            <br>
+
+            <!-- pop up -->
+            <center>
+                <div class="koodi_ikkuna">
+                    <p class="esittely">Business Information Technology student at Haaga-Helia University of Applied Sciences, majoring in digital services and currently working as a graphic designer and printing studio -manager in a small company in Helsinki. My professional interests goes for visual design, service design and user experience. <br>Click the button and see something I have done.</p>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="background-color: darksalmon; border-color: white; margin-bottom: 50px" id="cv">
+  Open Resume
+</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Resume</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <a href="img/cv_uusi.png"><img src="img/cv_uusi.png" alt="" title="kuva10" class="cvkuva"/></a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">OK!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+
+            <!--kuvagalleria-->
+            <div class="container">
+                <h1 class="align-center" style="font-family: Meddon; color: black; font-size: 30px; margin-bottom: 20px">Gallery</h1>
+
+                <div class="gallery" id="kuvat">
+                    <a href="img/10.jpg"><img src="img/10.jpg" alt="" title="kuva10" /></a>
+                    <a href="img/2.jpg"><img src="img/2.jpg" alt="" title="kuva2" /></a>
+                    <a href="img/3.jpeg"><img src="img/3.jpeg" alt="" title="kuva3" /></a>
+                    <a href="img/5.jpeg"><img src="img/5.jpeg" alt="" title="kuva5" /></a>
+                    <a href="img/7.jpg"><img src="img/7.jpg" alt="" title="kuva7" /></a>
+                    <div class="clear"></div>
+
+                </div>
+            </div>
+
+            <!--palaute-->
+            <div class="container" id="feedback" style="text-align: center">
+                <h2 style="font-family:Meddon; color:black; font-size:30px; margin-top:50px">Give me feedback!</h2>
+                <p>What do you think about my portfolio?</p>
+
+                <form>
+                    <input type="text" placeholder="Name" id="nimi" style="width: 200px"><br><br>
+                    <textarea id="mielipide" name="mielipide" placeholder="Feedback" style="width: 200px"></textarea>
+                    <br>
+                    <button id="nappi" onClick="submitClick()">Send</button>
+                </form>
+                <div id="viestiketju"></div>
+            </div>
+
+
+
+            <footer class="footer"></footer>
+            
+        </div>
+    </div>
+
+
+            <!--firebase-->
+
+            <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+            <script>
+                // Initialize Firebase
+                var config = {
+                    apiKey: "AIzaSyAl9MENGimpg3q8nz41r-eYAYlR6KkCpEA",
+                    authDomain: "portfolio-11a1c.firebaseapp.com",
+                    databaseURL: "https://portfolio-11a1c.firebaseio.com",
+                    projectId: "portfolio-11a1c",
+                    storageBucket: "portfolio-11a1c.appspot.com",
+                    messagingSenderId: "55812313440"
+                };
+                firebase.initializeApp(config);
+
+                var firebaseRef = firebase.database();
+                var lahettaja = document.getElementById("nimi");
+                var mitamielta = document.getElementById("mielipide");
+
+                function submitClick() {
+                    var firebaseRef = firebase.database().ref();
+                    var nimiteksti = lahettaja.value;
+                    var mp = mielipide.value;
+
+                    firebaseRef.child("viestit").push().set({
+                        nimi: nimiteksti,
+                        mielipide: mp
+                    })
+
+                }
+
+                var rootRef = firebase.database().ref().child('viestit');
+                rootRef.on('child_added', snap =>
+
+                    {
+                        var nimi = snap.child("nimi").val();
+                        var mielipide = snap.child("mielipide").val();
+
+                        $("#viestiketju").append("<p>" + nimi + ": " + mielipide + "</p>");
+
+                    });
+
+            </script>
+
+            <!-- lightbox-->
+            <script src="js/lightbox.js"></script>
+            <script src="js/simple-lightbox.min.js"></script>
+
+            <!-- jquery ja bootstrap scriptit -->
+            <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+            <!-- api-->
+
+            <script>
+                $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=helsinki&units=metric&APPID=665ecd56dfc08dbb50feb8b8f5034e28", function(data) {
+
+                    var nimi = data.name;
+                    var kuvaus = data.weather[0].main;
+                    var tuuli = data.wind.speed;
+                    var lampotila = data.main.temp;
+
+                    var items = [];
+
+
+                    items.push("<center><h4> City: " + nimi + "</h4></center>");
+                    items.push("<center><p> Weather: " + kuvaus + ", Wind: " + tuuli + " m / s, Temperature: " + lampotila + " degrees.</p></center>");
+
+
+                    $("<ul/>", {
+                        html: items.join("")
+                    }).appendTo("footer");
+                });
+
+            </script>
+
+</body>
+
+
+</html>
